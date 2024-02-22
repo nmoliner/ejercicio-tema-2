@@ -43,3 +43,24 @@ else:
     print("La galleta no tiene chocolate")
 
 print(Galleta.chocolate)
+
+
+class Galleta:
+    chocolate = False
+
+Galleta.chocolate = True
+
+galleta = Galleta()
+
+if galleta.chocolate:
+    print("La galleta tiene chocolate")
+else:
+    print("La galleta no tiene chocolate")
+
+
+class Galleta:
+    chocolate = False
+    def saludar():
+        print("Hola, soy una galleta muy sabrosa")
+galleta = Galleta()
+galleta.saludar()
