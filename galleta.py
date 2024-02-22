@@ -42,4 +42,4 @@ if galleta.chocolate:
 else:
     print("La galleta no tiene chocolate")
 
-
+print(Galleta.chocolate)
